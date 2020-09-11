@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 62.5%;
+}
+
+/*FUENTES*/
+@import './scss/fuentes.scss';
+
+/*VARIABLES*/
+@import './scss/variables.scss';
+
+/*KEYFRAMES*/
+@import './scss/keyframes.scss';
+
+/*HEADER*/
+@import './scss/header.scss';
+
+/*NAVBAR*/
+@import './scss/navbar.scss';
+
+/*PRINCIPAL*/
+@import './scss/principal.scss';
+
+/*CARDS*/
+@import './scss/cards.scss';
+   
+/*FORMULARIO*/
+@import './scss/formulario.scss';
+
+/*REDES*/
+@import './scss/redes.scss';
+
+/*FOOTER*/
+@import './scss/footer.scss';
+
+/*MEDIA QUERY*/
+@import './scss/mediaquery.scss';
+

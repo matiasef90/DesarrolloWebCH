@@ -1,0 +1,32 @@
+/*REDES*/
+
+.caja{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    align-items: center;
+}
+
+.redes{
+    flex-grow: 1;
+}
+
+.redes__texto{
+    text-align: center;
+}
+
+.redes__enlace{
+    justify-items: stretch;
+    font-family: $fuenteRedes !important;
+    font-size: 8rem;
+    text-decoration: none;
+    border-radius: 999rem;
+    color: $color-secondary;
+    transition: all 1s;
+}
+
+.redes__enlace:hover{
+    background-color: $color-secondary;
+    color: $color-fond;
+    text-decoration: none;
+}

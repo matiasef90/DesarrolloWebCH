@@ -1,0 +1,48 @@
+/*PRINCIPAL*/
+
+.principal__texto{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: $color-secondary;
+    color: black;
+    text-shadow: .2rem .2rem 0rem $color-fond;
+    padding: 1em;
+    font-family: $fuenteTexto;    
+}
+
+.principal{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.principal--home{
+    background-image: url(../img/home/fondo-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 2;
+    min-height: 250em;
+    
+}
+
+.principal__texto{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    color: $color-secondary;
+    text-shadow: 0px 2px 0px $color-fond;
+    font-family: $fuenteTexto;
+}
+
+.principal__texto--home{
+    margin: 0rem auto;
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: $color-fond;
+    text-shadow: -.4rem .3rem 0rem transparent, -.14rem .7rem 0rem $color-secondary;
+    letter-spacing: 1rem;
+    background-color:rgba(97, 97, 97, 0.7);
+    padding: 1em;
+    width: 100%;
+}

@@ -1,0 +1,67 @@
+/*MEDIA QUERY*/
+
+@media (max-width: 992px) {
+
+    .header__texto{
+        padding: 0px;
+        text-align: left;
+        margin: 0px;
+        animation: none;
+        font-size: 3rem;
+        margin-left: 3rem;
+    }
+
+    .nav__lista{
+        background-color: $color-secondary;
+    }
+
+    .nav__item{
+        width: 100%;
+    }
+
+    .nav__button{
+        position: absolute;
+        right: 30px;
+        top: -70px;
+    }
+    
+    .principal__texto--home{
+        font-size: 3rem;
+        line-height:6rem;
+    }
+    
+    .principal--home{
+        min-height: 150em;
+        z-index: 1;
+        height: 30rem;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .footer__texto{
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 576px){
+    .card__img{
+        width: 96%;
+    }
+    .formulario__submit{
+        margin-left: 0rem;
+        align-self: center;
+    }
+}
+
+
+@media (max-width: 768px){
+    .card__img{
+        width: 96%;
+    }
+    
+    .formulario__submit{
+        margin-left: 0rem;
+        align-self: center;
+    }
+}

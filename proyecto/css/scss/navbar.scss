@@ -1,0 +1,55 @@
+/*NAVBAR*/
+
+.nav{   
+    background-color: $color-fond;
+    margin-top: -10px;
+    padding: 0px;
+}
+
+.nav__lista{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+}
+
+.nav__item{
+    font-size: 2rem;    
+    font-family: $fuenteTexto;
+    list-style: none;
+    background-color: $color-fond;
+    flex-basis: auto;
+    flex-grow: 1;
+    line-height: 2em;
+}
+
+.nav__button{
+    width: 4rem;
+    height: 3rem;
+    font-size: 2rem;
+    color: $color-secondary;
+    font-weight: bold;
+    background-color: $color-fond;
+}
+
+
+.nav__enlace{
+    text-align: center;
+    display: block;
+    font-size: 1.6rem;    
+    text-decoration: none;
+    color: $color-secondary;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: .2rem;
+    transition: 400ms;
+    padding: .5em;
+}
+
+.nav__enlace:hover{
+    color: $color-fond;
+    background-color: $color-secondary;
+}
+

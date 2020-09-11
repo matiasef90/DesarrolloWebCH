@@ -1,0 +1,90 @@
+/*FORMULARIO*/
+
+.formulario{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.formulario__caja{
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 1;
+    align-content: space-around;
+    align-items: start;
+    align-self: flex-start;
+}
+
+.formulario__textarea{
+    display: block;
+    height: 28rem;
+    width: 25rem;
+    border-radius: 1rem;
+    background-color:$color-fond;
+    margin: 1rem;
+    resize: none;
+    border: 1px solid $color-secondary;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: $color-letter;
+    
+}
+
+.formulario__textarea:focus{
+    border-radius: 1rem;
+    border: 3px solid $color-secondary;
+    
+}
+
+.formulario__label{
+    display: block;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    color: $color-secondary;
+    text-shadow: .0rem .2rem .1rem $color-fond;
+    font-weight: 600;
+    outline: none;
+    font-family: $fuenteTexto;
+} 
+
+.formulario__input{
+    height: 2.5rem;
+    border: 1px solid $color-secondary;
+    border-radius: .5rem;
+    background-color: $color-fond;
+    width: 30rem;
+    margin-left: 1rem;
+    font-size: 1.6rem;
+}
+
+.formulario__submit{
+    border: 1px solid $color-secondary;
+    width: 14rem;
+    height: 5rem;
+    margin-top: 3rem;
+    margin-left: -20.5rem;
+    align-items: center;
+    font-size: 1.8rem;
+    text-transform: uppercase; 
+    font-weight: 800;
+    color: $color-secondary;
+    background-color: $color-fond;
+    font-family: $fuenteTexto;
+    transition: all 400ms;
+}
+
+.formulario__submit:hover{
+    color: $color-fond;
+    background-color: $color-secondary;
+    border-radius: 1rem;
+}
+
+.formulario__input{
+    height: 2.5rem;
+    border: 3px solid $color-secondary;
+    outline: none;
+}
