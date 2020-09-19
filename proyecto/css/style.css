@@ -4,6 +4,10 @@
   font-size: 62.5%;
 }
 
+.container {
+  width: 1200px;
+}
+
 /*FUENTES*/
 /*FUENTES*/
 @font-face {
@@ -167,7 +171,7 @@ body {
 .principal {
   display: flex;
   flex-flow: column wrap;
-  align-items: stretch;
+  align-items: center;
   justify-content: space-evenly;
 }
 
@@ -203,10 +207,15 @@ body {
 /*CARDS*/
 /*CARDS*/
 .card {
+  width: 65rem;
   margin: 2rem 0;
   padding: 1em;
   background-color: #d9c6a5;
   border: none;
+}
+
+.card--imagenes {
+  width: 90rem;
 }
 
 .card__tittle {

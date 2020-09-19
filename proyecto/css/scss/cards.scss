@@ -1,10 +1,15 @@
 /*CARDS*/
 
 .card{
+    width: 65rem;
     margin: 2rem 0;
     padding: 1em;
     background-color: $color-fond-dark;
     border:none;
+}
+
+.card--imagenes{
+    width: 90rem;
 }
 
 .card__tittle{
