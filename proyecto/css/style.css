@@ -378,13 +378,13 @@ body {
   width: 100%;
   height: 15em;
   text-align: center;
-  line-height: 15em;
 }
 
 .footer__texto {
   color: #f7e7bd;
   font-size: 1.6rem;
   letter-spacing: 0.1rem;
+  padding-top: 2rem;
 }
 
 /*MEDIA QUERY*/
