@@ -11,16 +11,21 @@
 .formulario__caja{
     display: flex;
     flex-flow: column wrap;
-    flex-grow: 1;
     align-content: space-around;
     align-items: start;
     align-self: flex-start;
+    flex-grow: 1;
+}
+
+.formulario__caja--enviar{
+    width: 100%;
+    margin-top: 2rem;
 }
 
 .formulario__textarea{
     display: block;
-    height: 28rem;
-    width: 25rem;
+    height: 100%;
+    width: 80%;
     border-radius: 1rem;
     background-color:$color-fond;
     margin: 1rem;
@@ -56,9 +61,10 @@
     border: 1px solid $color-secondary;
     border-radius: .5rem;
     background-color: $color-fond;
-    width: 30rem;
+    width: 90%;
     margin-left: 1rem;
     font-size: 1.6rem;
+    padding: 1.5rem;
 }
 
 .formulario__submit{
@@ -66,7 +72,6 @@
     width: 14rem;
     height: 5rem;
     margin-top: 3rem;
-    margin-left: -20.5rem;
     align-items: center;
     font-size: 1.8rem;
     text-transform: uppercase; 
