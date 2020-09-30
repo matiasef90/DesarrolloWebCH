@@ -211,6 +211,16 @@ body {
   margin: 1rem;
   border-radius: 3rem; }
 
+.card__carousel {
+  width: 80%;
+  height: auto;
+  margin: 0px auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+.card__carousel__img {
+  border-radius: 3rem; }
+
 /*FORMULARIO*/
 /*FORMULARIO*/
 .formulario {
