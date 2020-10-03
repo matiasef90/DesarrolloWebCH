@@ -12,7 +12,7 @@
 
 .principal{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -46,3 +46,13 @@
     padding: 1em;
     width: 100%;
 }
+
+.principal__columna{
+    width: 49%;
+    overflow: hidden;
+    img{
+        object-position: -375px 0px;
+        height: 100%;
+    }
+}
+
