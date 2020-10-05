@@ -17,7 +17,6 @@
 }
 
 .nav__item{
-    font-size: 2rem;    
     font-family: $fuenteTexto;
     list-style: none;
     background-color: $color-fond;
@@ -29,7 +28,6 @@
 .nav__button{
     width: 4rem;
     height: 3rem;
-    font-size: 2rem;
     color: $color-secondary;
     font-weight: bold;
     background-color: $color-fond;
@@ -39,7 +37,7 @@
 .nav__enlace{
     text-align: center;
     display: block;
-    font-size: 1.6rem;    
+    font-size: 2rem;    
     text-decoration: none;
     color: $color-secondary;
     text-transform: uppercase;
