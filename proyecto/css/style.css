@@ -177,6 +177,10 @@ body {
   padding: 1em;
   width: 100%; }
 
+.principal__texto--redes {
+  margin: 0px auto;
+  margin-top: 3rem; }
+
 .principal__columna {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -246,24 +250,27 @@ body {
   flex-flow: row wrap;
   align-content: space-between;
   align-items: center;
-  margin-top: 4rem; }
+  margin-top: 4rem;
+  width: 90%; }
 
 .formulario__caja {
   display: flex;
   flex-flow: column wrap;
-  align-content: space-around;
-  align-items: start;
+  align-content: space-between;
+  align-items: stretch;
   align-self: flex-start;
-  flex-grow: 1; }
+  flex-grow: 1;
+  width: 50%; }
 
 .formulario__caja--enviar {
   width: 100%;
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  align-content: space-around; }
 
 .formulario__textarea {
   display: block;
   height: 100%;
-  width: 80%;
+  width: 90%;
   border-radius: 1rem;
   background-color: #f7e7bd;
   margin: 1rem;
@@ -329,7 +336,8 @@ body {
   display: flex;
   flex-flow: row wrap;
   align-content: space-between;
-  align-items: center; }
+  align-items: center;
+  width: 100%; }
 
 .redes {
   flex-grow: 1; }

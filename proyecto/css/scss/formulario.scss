@@ -6,26 +6,29 @@
     align-content: space-between;
     align-items: center;
     margin-top: 4rem;
+    width: 90%;
 }
 
 .formulario__caja{
     display: flex;
     flex-flow: column wrap;
-    align-content: space-around;
-    align-items: start;
+    align-content: space-between;
+    align-items: stretch;
     align-self: flex-start;
     flex-grow: 1;
+    width: 50%;
 }
 
 .formulario__caja--enviar{
     width: 100%;
     margin-top: 2rem;
+    align-content: space-around;
 }
 
 .formulario__textarea{
     display: block;
     height: 100%;
-    width: 80%;
+    width: 90%;
     border-radius: 1rem;
     background-color:$color-fond;
     margin: 1rem;
